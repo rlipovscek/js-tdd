@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "eslint": "./node_modules/.bin/eslint src/*.js",
-    "pre-commit":"npm run eslint",
+    "PRECOMMIT":"NPM RUN ESLINT",
+    "prepush":"npm run eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
